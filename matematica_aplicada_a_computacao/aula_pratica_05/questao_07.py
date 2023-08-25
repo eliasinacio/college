@@ -5,6 +5,6 @@
 total = 7
 possibilidade = 4
 
-probabilidade = possibilidade / total
+probabilidade = (possibilidade / total) * 100
 
-print(f'Pssibilidade: {probabilidade:.2f} ')
+print(f'Pssibilidade: {probabilidade:.2f} % ')

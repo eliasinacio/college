@@ -12,6 +12,20 @@ media = (26 + 27 + 28 + 32 + 32 + 33 + 34 + 35 + 37 + 36) / 10
 moda = 32
 mediana = (32 + 33) / 2
 
-print(f'Média: {media}')
-print(f'Moda: {moda}')
-print(f'Mediana: {mediana}')
+print(f'1. Média: {media}')
+print(f'2. Moda: {moda}')
+print(f'3. Mediana: {mediana}')
+
+# Trabalhar com dados no python também pode ser assim:
+
+import pandas
+
+rol = {'tempo': [26, 27, 28, 32, 32, 33, 34, 35, 37, 36]}
+
+dados = pandas.DataFrame(rol)
+
+media = dados['tempo'].mean()
+moda = dados['tempo'].mode()
+mediana = dados['tempo'].median()
+
+print(f'4. \nMédia: {media} \nModa: {moda} \nMediana: {mediana}')
