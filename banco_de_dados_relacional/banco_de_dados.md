@@ -400,3 +400,27 @@ from funcionario;
 
 /* Trará os funcionários e o genero, mas mostrando 'Feminino'/'Masculino' no lugar do real valor da tabela que é 'F'/'M' */
 ```
+
+## SQL Subqueries
+
+### Subconsulta
+
+Uma query dentro de uma query
+
+```SQL
+select * from cidade 
+where uf = (
+    select sigla from estado
+    where nome = 'Ceará'
+);
+```
+
+### EXISTS
+
+```SQL
+select nome, salario from cliente 
+where salario < 7000 
+and exists (
+    select * from cliente where salario > 11000
+);
+```
