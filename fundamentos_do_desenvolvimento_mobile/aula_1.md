@@ -1,4 +1,5 @@
-Principais pontos:
+# Principais pontos:
+
 - Uso de dispositivos no dia a dia: Computadores, notebooks, tablets, smartphones, wearables.
 - Evolução do telefone/smartphone.
 - Frontend x Backend
