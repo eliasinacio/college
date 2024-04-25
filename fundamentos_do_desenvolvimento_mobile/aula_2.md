@@ -1,4 +1,4 @@
-# Principais pontos:
+# O Profissional de Mobile e sua atuação
 
 ## O prifissional de mobile e sua atuação
 - Ser multifuncional, aprender e conhecer diferentes áreas

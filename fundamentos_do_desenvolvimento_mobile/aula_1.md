@@ -1,4 +1,4 @@
-# Principais pontos:
+# Conceitos Fundamentais de Mobile
 
 - Uso de dispositivos no dia a dia: Computadores, notebooks, tablets, smartphones, wearables.
 - Evolução do telefone/smartphone.
