@@ -39,3 +39,7 @@ Comportamentais
 - Padrões de interação e responsabilidades entre objetos
 - Exemplo: Strategy e Observer
 
+
+## Arquitetura Java EE (Enterprise Edition)
+- 4 camadas lógicas: cliente, web, negócios e sistema de informação corporativa
+- Considerada aplicação de 3 camadas (físicas): máquina do cliente, java EE server, database server 
